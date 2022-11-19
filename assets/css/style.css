@@ -1,0 +1,571 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifa;
+}
+header{
+    width: 100%;
+    height: 66px;
+    padding: 8px 0;
+}
+header .main{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+header .main .txt{
+height: 100%;
+width: 20%;
+padding: 8px;
+}
+header .main a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifa;
+    font-weight: 450;
+    
+    
+}
+header .main button{
+    width: 87.25px;
+    height: 50px;
+    border: none;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 0.25rem;
+    margin-right: 1.5rem;
+    font-size: 16px;
+}
+.sea{
+    width: 100%;
+    height: 611px;
+    position: relative;
+    z-index: 0;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sea .curtain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 611px;
+    position: absolute;
+    background-color: rgba(28, 55, 94,0.5);
+}
+.sea .curtain .mainbox{
+    width: 660px;
+    height: 227px;
+}
+
+.sea .curtain .mainbox .txt {
+    height: 60%;
+    width: 100%;
+}
+.sea .curtain .mainbox .txt h2 {
+    text-align: center;
+   color: #fff;
+   font-size: 48px;
+   font-weight: bold;
+   line-height: 55px;
+   letter-spacing: 1px;
+   font-family: 'Lato', sans-serif;
+
+}
+
+.sea .curtain .mainbox .input {
+    height: 40%;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.sea .curtain .mainbox .input .email {
+    height: 64px;
+    width: 508px;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 16px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.sea .curtain .mainbox .input .email::placeholder {
+    font-size: 20px;
+}
+.sea .curtain .mainbox .input .email:focus {
+    outline: none;
+}
+.sea .curtain .mainbox .input .submit {
+    width: 103px;
+    height: 64px;
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 0.3rem;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.15s linear;
+}
+.sea .curtain .mainbox .input .submit:hover {
+    background-color: rgb(11 94 213);
+}
+
+.icons{
+    width: 100%;
+    height: 453px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons .mainbox{
+    width: 1320px;
+    height: 229px;
+    display: flex;
+}
+
+.icons .mainbox .box1{
+    height: 100%;
+    width: 440px;
+}
+
+.icons .mainbox .box1 .icon{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons .mainbox .box1 .icon svg{
+    color: #0d6efd;
+    width: 72px;
+    height: 72px;
+}
+.icons .mainbox .box1 .text{
+    width: 100%;
+    height: 50%;
+}
+
+.icons .mainbox .box1 .text h2{
+    text-align: center;
+    color: #212529;
+    font-size: 28px;
+}
+
+.icons .mainbox .box1 .text p{
+    text-align: center;
+    color: #212529;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.icons .mainbox .box2{
+    height: 100%;
+    width: 440px;
+}
+
+.icons .mainbox .box2 .icon{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons .mainbox .box2 .icon svg{
+    color: #0d6efd;
+    width: 72px;
+    height: 72px;
+}
+.icons .mainbox .box2 .text{
+    width: 100%;
+    height: 50%;
+}
+
+.icons .mainbox .box2 .text h2{
+    text-align: center;
+    color: #212529;
+    font-size: 28px;
+}
+
+.icons .mainbox .box2 .text p{
+    text-align: center;
+    color: #212529;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.icons .mainbox .box3{
+    height: 100%;
+    width: 440px;
+}
+
+.icons .mainbox .box3 .icon{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons .mainbox .box3 .icon svg{
+    color: #0d6efd;
+    width: 72px;
+    height: 72px;
+}
+.icons .mainbox .box3 .text{
+    width: 100%;
+    height: 50%;
+}
+
+.icons .mainbox .box3 .text h2{
+    text-align: center;
+    color: #212529;
+    font-size: 28px;
+}
+
+.icons .mainbox .box3 .text p{
+    text-align: center;
+    color: #212529;
+    font-size: 20px;
+    font-weight: 300;
+}
+.images{
+    width: 100%;
+}
+/* main1start */
+
+.images .main1 {
+    width: 100%;
+    height: 480px;
+    display: flex;
+}
+.images .main1 .text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 480px;
+    padding: 7rem;
+}
+
+.images .main1 .text1 h2{
+    font-size: 32px;
+}
+.images .main1 .text1 p{
+    font-size: 20px;
+    color: #212529;
+    font-weight: 200;
+}
+
+.images .main1 .image1{
+    width: 50%;
+    height: 480px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg);
+    background-size: cover;
+}
+
+/* main2start */
+
+.images .main2 {
+    width: 100%;
+    height: 480px;
+    display: flex;
+}
+
+.images .main2 .image2{
+    width: 50%;
+    height: 480px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg);
+    background-size: cover;
+}
+
+.images .main2 .text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 480px;
+    padding: 7rem;
+}
+
+.images .main2 .text2 h2{
+    font-size: 32px;
+}
+.images .main2 .text2 p{
+    font-size: 20px;
+    color: #212529;
+    font-weight: 200;
+}
+
+/* main3start */
+
+.images .main3 {
+    width: 100%;
+    height: 480px;
+    display: flex;
+}
+.images .main3 .text3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 480px;
+    padding: 7rem;
+}
+
+.images .main3 .text3 h2{
+    font-size: 32px;
+}
+.images .main3 .text3 p{
+    font-size: 20px;
+    color: #212529;
+    font-weight: 200;
+}
+
+.images .main3 .image3{
+    width: 50%;
+    height: 480px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg);
+    background-size: cover;
+}
+
+.famous{
+    width: 100%;
+    height: 622px;
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.famous h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 3rem;
+}
+
+.famous .boxs{
+    display: flex;
+    width: 1320px;
+    height: 312px;
+}
+
+.famous .boxs .box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 440px;
+    height: 312px;
+}
+
+.famous .boxs .box1 .img{
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-1.jpg);
+    background-size: contain;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+    margin-bottom: 16px;
+}
+
+.famous .boxs .box1  h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.famous .boxs .box1 p{
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #212529;
+}
+
+.famous .boxs .box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 440px;
+    height: 312px;
+}
+
+.famous .boxs .box2 .img{
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-2.jpg);
+    background-size: contain;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+    margin-bottom: 16px;
+}
+
+.famous .boxs .box2  h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.famous .boxs .box2 p{
+    width: 65%;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #212529;
+    text-align: center;
+}
+
+.famous .boxs .box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 440px;
+    height: 312px;
+}
+
+.famous .boxs .box3 .img{
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-3.jpg);
+    background-size: contain;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+    margin-bottom: 16px;
+}
+
+.famous .boxs .box3  h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.famous .boxs .box3 p{
+    width: 65%;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #212529;
+    text-align: center;
+}
+
+.sign{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    z-index: 0;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sign .curtain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    background-color: rgba(28, 55, 94,0.5);
+    padding: 7rem 0;
+}
+
+.sign .curtain .mainbox{
+    width: 660px;
+    height: 126px;
+}
+
+.sign .curtain .mainbox .txt {
+    height: 40%;
+    width: 100%;
+}
+.sign .curtain .mainbox .txt h2 {
+    text-align: center;
+   color: #fff;
+   font-size: 32px;
+   font-weight: bold;
+   line-height: 55px;
+   letter-spacing: 1px;
+   font-family: 'Lato', sans-serif;
+
+}
+
+.sign .curtain .mainbox .input {
+    height: 40%;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.sign .curtain .mainbox .input .email {
+    height: 64px;
+    width: 508px;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 16px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.sign .curtain .mainbox .input .email::placeholder {
+    font-size: 20px;
+}
+.sea .curtain .mainbox .input .email:focus {
+    outline: none;
+}
+.sign .curtain .mainbox .input .submit {
+    width: 103px;
+    height: 64px;
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 0.3rem;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.15s linear;
+}
+.sign .curtain .mainbox .input .submit:hover {
+    background-color: rgb(11 94 213);
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 181px;
+}
+footer .huge{
+    display: flex;
+    width: 1320px;
+    height: 53px;
+}
+footer .huge .text{
+    width: 50%;
+    height: 100%;
+}
+
+footer .huge .text ul{
+    display: flex;
+    margin-bottom: 3px;
+    padding: 0;
+}
+footer .huge .text ul li{
+    list-style: none;
+    margin-right: 10px;
+
+}
+footer .huge .text p{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #6c757d;
+}
+footer .huge .logos{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+footer .huge .logos i{
+    font-size: 28px;
+    color: #0d6efd;
+    margin-right: 1.5rem;
+}
